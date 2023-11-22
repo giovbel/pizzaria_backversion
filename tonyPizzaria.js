@@ -50,7 +50,71 @@ var jsonProdutos = {
                     comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                     avaliação: 3
                     }]
-           } 
+           },
+           {
+                 id: 3,
+                 nome: 'Pizza de peperoni com queijo',
+                 preço: '19,00',
+                 imagem: '',
+                 descrição: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                 categorias: jsonCategorias.categorias[2],
+                 comentários: [
+                {
+                id: 1,
+                usuário:'Ana Maria Braga',
+                data: '25/07/2022',
+                comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                avaliação: 4
+                }
+            ]},
+            {
+                id: 4,
+                nome: 'Pizza de calabreza com queijo',
+                preço: '16,00',
+                imagem: '',
+                descrição: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                categorias: jsonCategorias.categorias[0],
+                comentários: [
+                    {
+                    id: 1,
+                    usuário:'Luis Melo',
+                    data: '30/08/2022',
+                    comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                    avaliação: 5
+                    }
+                ]},
+                {
+                    id: 5,
+                    nome: 'Pizza brotinho com queijo e tomate',
+                    preço: '12,00',
+                    imagem: '',
+                    descrição: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                    categorias: jsonCategorias.categorias[0],
+                    comentários: [
+                        {
+                        id: 1,
+                        usuário:'Amanda Cruz',
+                        data: '12/09/2022',
+                        comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                        avaliação: 4
+                        }
+                    ]},
+                    {
+                        id: 6,
+                        nome: 'Pizza brotinho com queijo e tomate',
+                        preço: '12,00',
+                        imagem: '',
+                        descrição: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                        categorias: jsonCategorias.categorias[0],
+                        comentários: [
+                            {
+                            id: 1,
+                            usuário:'Amanda Cruz',
+                            data: '12/09/2022',
+                            comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                            avaliação: 4
+                            }
+                        ]}
 ]}
 
 var jsonUsuario = {
