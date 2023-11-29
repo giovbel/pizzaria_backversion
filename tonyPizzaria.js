@@ -24,14 +24,16 @@ var jsonProdutos = {
                 id: 1,
                 usuário:'Maria da Silva',
                 data: '15/03/2022',
-                comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                titulo: 'Pizza muito boa!',
+                comentário: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                 avaliação: 3 
                 },
                 {
                     id: 2,
                     usuário:'Pedro Gomes Dias',
                     data: '21/05/2022',
-                    comentário: 'Essa pizza é demais, recomendo.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                    titulo: 'Essa pizza é demais, recomendo.',
+                    comentário: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                     avaliação: 4
                     }
             ]},
@@ -47,7 +49,8 @@ var jsonProdutos = {
                     id: 3,
                     usuário:'Fulano da Silva',
                     data: '18/03/2022',
-                    comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                    titulo: 'Pizza muito boa!',
+                    comentário: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                     avaliação: 3
                     }]
            },
@@ -63,6 +66,7 @@ var jsonProdutos = {
                 id: 1,
                 usuário:'Ana Maria Braga',
                 data: '25/07/2022',
+                titulo: 'Pizza muito boa!',
                 comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                 avaliação: 4
                 }
@@ -79,7 +83,8 @@ var jsonProdutos = {
                     id: 1,
                     usuário:'Luis Melo',
                     data: '30/08/2022',
-                    comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                    titulo: 'Pizza muito boa!',
+                    comentário: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                     avaliação: 5
                     }
                 ]},
@@ -95,7 +100,8 @@ var jsonProdutos = {
                         id: 1,
                         usuário:'Amanda Cruz',
                         data: '12/09/2022',
-                        comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                        titulo: 'Pizza muito boa!',
+                        comentário: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                         avaliação: 4
                         }
                     ]},
@@ -111,7 +117,8 @@ var jsonProdutos = {
                             id: 1,
                             usuário:'Amanda Cruz',
                             data: '12/09/2022',
-                            comentário: 'Pizza muito boa! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
+                            titulo: 'Pizza muito boa!',
+                            comentário: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
                             avaliação: 4
                             }
                         ]}
@@ -136,7 +143,30 @@ var jsonUsuario = {
                     país: 'Brasil'
                     }
                 ]
+        },
+        {
+            id: 2,
+            imagem: './img/user.png',
+            nome: 'Amanda Cruz',
+            email: 'amanda.cruz@email.com.br',
+            senha: 'am2023',
+            telefone: '(11) 9456-5890',
+            localização: 
+                [
+                    {
+                    id: 1,
+                    estado: 'PE',
+                    rua: 'Rua Perto do Mercado Sol',
+                    barro: 'Bom Jardim',
+                    país: 'Brasil'
+                    }
+                ]
         }
     ]
 }
 
+module.exports = {
+    jsonCategorias,
+    jsonUsuario,
+    jsonProdutos
+ }
